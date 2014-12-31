@@ -113,13 +113,14 @@ textarea {
 /*}*/
 #logodiv {
     float: left;
-    padding-top: 8px;
+    padding-top: 15px;
     padding-bottom: 8px;
+    max-height: 77px;
 }
 
 #logodiv img {
     float: left;
-    padding-left: 210px;
+    padding-left: 217px;
     max-height: 70px;
     vertical-align: middle;
 }
@@ -140,6 +141,11 @@ textarea {
     font-family: Oswald;
 }
 
+#top-menu-bar li img {
+    padding: 0px 20px;
+    margin: 0px;
+}
+
 
 .navbar {
     float: left;
@@ -148,6 +154,26 @@ textarea {
     height: 50px;
 }
 
+.navbar li {
+    float: left;
+    list-style: none;
+    font-size: 28px;
+    font-family: Oswald;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: bold;
+    color: #595858;
+    padding: 0px 10px 0px;
+}
+
+#red-football {
+    font-size: 28px;
+    line-height: 48px;
+    font-family: Oswald;
+    color: #e41c38;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 }
 /*background: repeating-linear-gradient(*/
