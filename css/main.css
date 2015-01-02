@@ -148,10 +148,17 @@ textarea {
 
 
 .navbar {
+    padding-left: 195px;
     float: left;
     background-color: #CCCCCC;
     width: 100%;
     height: 50px;
+}
+
+
+.navbar ul {
+    margin: 0px;
+    padding: 0px;
 }
 
 .navbar li {
@@ -163,7 +170,13 @@ textarea {
     line-height: 34px;
     font-weight: bold;
     color: #595858;
-    padding: 0px 10px 0px;
+    padding: 5px 10px 0px;
+}
+
+.break{
+    clear: both;
+    margin: 0;
+    padding: 0;
 }
 
 #red-football {
@@ -173,24 +186,102 @@ textarea {
     color: #e41c38;
     text-decoration: none;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
+#main-display {
+    width: 100%;
 }
-/*background: repeating-linear-gradient(*/
-  /*-55deg,*/
-  /*#222,*/
-  /*#222 10px,*/
-  /*#333 10px,*/
-  /*#333 20px*/
-/*)*/
+
+#big-scroll-pictures {
+    width: 50%;
+    max-width: 1458px;
+    margin: 0 auto;
+    border-bottom: solid;
+    border-width: 0.1em;
+    border-bottom-color: #E6E6E6;
+    padding-bottom: 10px;
+}
+
+#big-scroll-pictures img {
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.circles {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    background: #CCCCCC;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+#connect-bar {
+    padding-left: 270px;
+    width: 100%;
+    height: 50px;
+    background-color: #CCCCCC;
+    margin-top: 20px;
+}
+
+#connect-bar h1 {
+    font-size: 24px;
+    line-height: 50px;
+    font-family: Oswald;
+    color: #595959;
+    margin: 0px;
+    font-weight: normal;
+}
+
+#connect-bar h1 span {
+    font-size: 24px;
+    line-height: 50px;
+    font-family: Oswald;
+    color: #e41c38;
+    margin: 0px;
+    font-weight: bold;
+}
+
+#huskers-directory {
+    float: left;
+    text-align: right;
+}
+
+#huskers-directory a{
+    font-size: 16px;
+    line-height: 50px;
+    color: #e41c38;
+    font-family: Oswald;
+}
+
+.blankbar {
+    max-height: 20px;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+#schedulebar {
+    padding-left: 270px;
+    width: 100%;
+    height: 50px;
+    background-color: #e41c38;
+    margin-top: 20px;
+}
+
+#schedulebar h1 {
+    padding: 270px;
+}
 
 
-#top-leaderboard {
-width: 728px;
-height: 90px;
-margin: 0px auto;
-padding: 10px 0px;
-}
+
+
 
 body {
 margin: 0;
